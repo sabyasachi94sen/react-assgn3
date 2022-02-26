@@ -1,13 +1,110 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.wrapper{
+    width:50%;
+   
+    border:2px solid brown;
+    display: flex;
+    
+    position: relative;
+    background-color: lightblue;
+    flex-wrap: wrap;
+    
+
+    align-items: flex-start;
+    top:60px;
+    margin:auto;
+
+    
+
+  
+    
+
+  
+    
 }
+
+.box{
+    border-radius: 15px;
+    border:2px solid blue;
+    width:42%;
+    height:6vh;
+    background-color: hotpink;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding-top: 20px;
+    margin-left: 40px;
+    
+   
+   
+    
+}
+
+.forms{
+
+ 
+    width:100%;
+    height:400vh;
+    text-align:center;
+   
+    margin: auto;
+    position: relative;
+    background-image: linear-gradient(180deg,pink 1%,lightblue 99%);
+
+  
+    
+
+}
+input{
+    margin:auto;
+ background-color: lightblue;
+ border-radius:15px;
+ height:4vh;
+ position: relative;
+
+ margin-top:30px ;
+
+}
+.btn1{
+    margin:auto;
+    width:150px;
+    height:6vh;
+    background-color: orange;
+    border-radius: 25px;
+  position: relative;
+  margin-top: 50px;
+  cursor: pointer;
+  margin-left: 80px;
+    
+  
+}
+.btn1:hover{
+    background-color: blue;
+}
+h2{
+    position: relative;
+    top:10px;
+    bottom: 20px;
+}
+.btn2{
+    margin:auto;
+    width:150px;
+    height:6vh;
+    background-color: orange;
+    border-radius: 25px;
+  position: relative;
+  margin-top: 50px;
+  cursor: pointer;
+  margin-top:100px;
+    
+}
+
+.btn2:hover{
+
+    background-color: blue;
+}
+
