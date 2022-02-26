@@ -67,7 +67,7 @@ export class App extends React.Component{
      
       <div className="forms">
         <h2 >EMPLOYEE FEEDBACK FORM</h2>
-      <form onSubmit={e=>e.preventDefault()} className="forms-div">
+     <div className="forms-div">
         <label >Name: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label>
         <input type="text" name="name" id="name" onChange={this.handleChange}></input>
         <p></p>
@@ -85,7 +85,7 @@ export class App extends React.Component{
 
      
 
-      </form>
+      </div>
       </div> :
       <div className="forms">
         <h2>FEEDBACK FORM DATA</h2>
